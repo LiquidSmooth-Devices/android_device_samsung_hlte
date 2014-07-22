@@ -25,7 +25,6 @@
 
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/hlte/include
 
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
@@ -41,6 +40,11 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/hlte/mkbootimg.mk
+TARGET_GCC_VERSION_ARM := 4.9-sm
+TARGET_GCC_VERSION_AND := 4.8-sm
+
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
 
 # Graphics
 BOARD_EGL_CFG := device/samsung/hlte/egl.cfg
@@ -91,7 +95,6 @@ TARGET_PROVIDES_LIBLIGHT := true
 BOARD_USES_QC_TIME_SERVICES := true
 
 # Display
-NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 
@@ -106,7 +109,7 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hltexx,hltespr,hltetmo,SM-N900T,hltecan,hlteatt,hltevzw,hlteusc,hlte
+TARGET_OTA_ASSERT_DEVICE := hltexx,hltespr,hltetmo,SM-N900T,hltecan,hlteatt,hltevzw,hlteusc,hlteskt,hltektt,hlte
 
 TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
 
