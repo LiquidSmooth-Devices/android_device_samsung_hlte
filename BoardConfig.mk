@@ -12,14 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#
-# This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
-# disable makefiles (the proper mechanism to control what gets
-# included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
-#
-
 # inherit from common msm8974
 -include device/samsung/msm8974-common/BoardConfigCommon.mk
 
@@ -41,6 +33,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/hlte/mkbootimg.mk
+TARGET_GCC_VERSION_ARM := 4.7-sm
+TARGET_GCC_VERSION_AND := 4.7-sm
 
 # Graphics
 BOARD_EGL_CFG := device/samsung/hlte/egl.cfg
