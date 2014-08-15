@@ -12,10 +12,10 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "cm",
+    "remote": "lsd",
     "repository": "android_kernel_samsung_hlte",
     "target_path": "kernel/samsung/hlte",
-    "revision": "cm-11.0"
+    "revision": "kitkat"
   },
   {
     "remote": "cm",
