@@ -23,4 +23,7 @@
 
     <!-- Decode YV16 format on Samsung HDR hardware -->
     <bool name="needsSamsungHDRFormat">true</bool>
+
+    <!-- Enable 4K Recording -->
+    <bool name="needs4KCamMode">true</bool>
 </resources>
