@@ -1,6 +1,12 @@
 [
   {
     "remote": "cm",
+    "repository": "android_device_samsung_hlte-common",
+    "target_path": "device/samsung/hlte-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "cm",
     "repository": "android_device_samsung_msm8974-common",
     "target_path": "device/samsung/msm8974-common",
     "revision": "cm-11.0"
