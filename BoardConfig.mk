@@ -17,6 +17,9 @@
 
 TARGET_OTA_ASSERT_DEVICE := hltexx,SM-N9005,hltetmo,SM-N900T,hlteatt,SM-N900A,hlte
 
+# Kernel
+TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/hlte/init/init_hlte.c
