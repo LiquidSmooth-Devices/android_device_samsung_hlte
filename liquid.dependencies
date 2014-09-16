@@ -6,6 +6,12 @@
     "revision": "kitkat"
   },
   {
+    "remote": "lsd",
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "revision": "kitkat"
+  },
+  {
     "remote": "cm",
     "repository": "android_device_samsung_msm8974-common",
     "target_path": "device/samsung/msm8974-common",
