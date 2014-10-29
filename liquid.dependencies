@@ -60,9 +60,9 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "gh",
-    "repository": "itsmikeramsay/proprietary_vendor_samsung",
+    "remote": "tm",
+    "repository": "proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "revision": "kitkat"
+    "revision": "cm-11.0"
   }
 ]
