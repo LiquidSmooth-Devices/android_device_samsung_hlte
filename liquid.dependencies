@@ -3,66 +3,54 @@
     "remote": "cm",
     "repository": "android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "lsd",
     "repository": "android_kernel_samsung_hlte",
     "target_path": "kernel/samsung/hlte",
-    "revision": "kitkat"
+    "revision": "lollipop"
   },
   {
     "remote": "lsd",
     "repository": "android_device_samsung_hlte-common",
     "target_path": "device/samsung/hlte-common",
-    "revision": "kitkat"
+    "revision": "lollipop"
   },
   {
     "remote": "cm",
     "repository": "android_device_samsung_msm8974-common",
     "target_path": "device/samsung/msm8974-common",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "lsd",
     "repository": "android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
-    "revision": "kitkat"
+    "revision": "lollipop"
   },
   {
     "remote": "cm",
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision": "cm-11.0"
-  },
-  {
-    "remote": "ls",
-    "repository": "android_hardware_qcom_display-caf-new",
-    "target_path": "hardware/qcom/display-caf-new",
-    "revision": "kitkat"
-  },
-  {
-    "remote": "ls",
-    "repository": "android_hardware_qcom_media-caf-new",
-    "target_path": "hardware/qcom/media-caf-new",
-    "revision": "kitkat"
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
     "repository": "android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "cm",
     "repository": "android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
     "remote": "tm",
     "repository": "proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "revision": "cm-11.0"
+    "revision": "cm-12.0"
   }
 ]
